@@ -12,8 +12,6 @@ RUN git clone https://github.com/ingmarione/spring-boot-crud.git
 
 WORKDIR spring-boot-crud/
 
-ADD application.properties src/main/resources/application.properties
-
 RUN mvn clean package -DskipTests
 
 WORKDIR target/
