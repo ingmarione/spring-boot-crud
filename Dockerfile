@@ -2,9 +2,7 @@ FROM maven:latest
 
 MAINTAINER Mario Fusco
 
-EXPOSE 8080
-
-EXPOSE 8000
+EXPOSE 8484
 
 RUN apt-get update
 
